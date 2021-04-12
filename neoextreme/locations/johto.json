@@ -494,8 +494,8 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 404,
-                                "y": 490
+                                "x": 394,
+                                "y": 460
                             }
                         ]
                     },
@@ -513,7 +513,7 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 404,
+                                "x": 424,
                                 "y": 460
                             }
                         ]
@@ -535,11 +535,7 @@
                                 "name": "Buena",
                                 "item_count": 1
                             },
-                            {
-                                "name": "False Director",
-                                "access_rules": ["$canFightTeamRocket"],
-                                "item_count": 1
-                            },
+
 
                             {
                                 "name": "After Defeating Team Rocket",
@@ -552,8 +548,28 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 325,
-                                "y": 490
+                                "x": 330,
+                                "y": 470
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Radio Tower",
+                        "sections": [
+
+                            {
+                                "name": "False Director",
+                                "access_rules": ["$canFightTeamRocket"],
+                                "item_count": 1
+                            },
+
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 330,
+                                "y": 495
                             }
                         ]
                     },
@@ -572,7 +588,7 @@
                             {
                                 "map": "johto_kanto",
                                 "x": 355,
-                                "y": 490
+                                "y": 470
                             }
                         ]
                     },
@@ -589,8 +605,8 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 320,
-                                "y": 450
+                                "x": 355,
+                                "y": 440
                             }
                         ]
                     },					
@@ -620,8 +636,8 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 350,
-                                "y": 450
+                                "x": 330,
+                                "y": 440
                             }
                         ]
                     }

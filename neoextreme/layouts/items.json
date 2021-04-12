@@ -1,11 +1,12 @@
 {
     "tracker_items": {
         "type": "array",
-        "orientation": "horizontal",
+        
+		
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
+                "h_alignment": "center",
 				
                 "item_margin": "1,2",
                 "rows": [
@@ -58,8 +59,7 @@
 						
 					],
 					[
-						"",
-						""
+						"old_rod"
 					],
 					[
 						
@@ -81,7 +81,7 @@
 					],
 					[
 						"",
-						""
+						
 					],
 					[
 						
@@ -109,83 +109,17 @@
 					
 					[
 						"team_rocket",
-						"elite_four"
-					],
-									
-					[
-						"red"
-					]
-/*					
-                    [
-						"pokegear",
-						"radio_card",
-                        "expansion_card",
-						"",
-						"squirt_bottle",
-                        "secret_potion",
-						"machine_part",
-	
-						
-                    ],
-					[
-					    "card_key",
-						"ss_ticket",
-                        "pass",
-						"",
-						"clear_bell",
-						"basement_key",
-                        "lost_item",						
-
-
-                    ],
-
-                    [
-                        "hm01",
-                        "hm02",
-                        "hm03",
-                        "hm04",
-                        "hm05",
-                        "hm06",
-                        "hm07",
-						"rainbow_badge",
-						
-						
-                    ],
-                    [
-                        "hive_badge",
-                        "storm_badge",                        
-                        "fog_badge",
-						"plain_badge",
-                        "zephyr_badge",
-						"glacier_badge",
-						"rising_badge",
-                        "mineral_badge",                        
-                        
-                    ],
-                    [
-                        "boulder_badge",
-                        "cascade_badge",
-                        "thunder_badge",
-                        "rainbow_badge",
-                        "soul_badge",
-                        "marsh_badge",
-                        "volcano_badge",
-                        "earth_badge",
-
-                    ],
-					[
-						"team_rocket",
 						"elite_four",
-						"red",
-
-
-					]*/
+						
+					],
+					
                 ]
             },
             
         ]
 
     },
+	
 	"settings_popup": {
         "type": "array",
 		"orientation": "horizontal",

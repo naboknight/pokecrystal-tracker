@@ -30,4 +30,5 @@ Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLocations("locations/johto.json")
 Tracker:AddLocations("locations/kanto.json")
 
+Tracker:AddLayouts("layouts/boardcast.json")
 Tracker:AddLayouts("layouts/tracker.json")
