@@ -1,6 +1,6 @@
 # EmoTracker pack for Pokémon Crystal Randomizers
 
-	##Instalação
+## Instalação
 
 	-Baixar o zip e descompactar em "~/Documentos/EmoTracker/packs/"
 	-É importante descompactar por que o github coloca uma pasta dentro do zip e o Emotracker reconhece ou o zip ou a pasta, nunca ambos.
