@@ -147,6 +147,15 @@
 						]
 					  }
 					},
+										{
+					  "title": "Dark Cave",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"dark_cave"
+						]
+					  }
+					},
 
 				  ]
 				}
