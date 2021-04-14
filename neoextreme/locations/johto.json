@@ -251,6 +251,14 @@
                     }
                 ]
             },
+			
+			
+			{
+				"name": "After Falkner",
+				"access_rules": ["falkner","squirt_bottle"],
+				"children": [
+			
+			
             {
                 "name": "Route 32",     
                 "sections": [
@@ -714,6 +722,8 @@
                     }
                 ]
             },
+			]
+			},
 			{
                 "name": "Ecruteak City",
                 "access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
