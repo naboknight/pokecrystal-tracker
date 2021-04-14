@@ -7,14 +7,14 @@
     },
 	{
         "name": "rock_tunnel",
-		"location_size": 80,
-		"location_border_thickness": 5,
+		"location_size": 18,
+		"location_border_thickness": 2,
         "img": "images/maps/rock_tunnel.png"
     },
 	{
         "name": "mt_silver",
 		"location_size": 80,
-		"location_border_thickness": 5,
+		"location_border_thickness": 2,
         "img": "images/maps/mt_silver.png"
     },
 	{
@@ -31,8 +31,8 @@
     },
 	{
         "name": "victory_road",
-		"location_size": 80,
-		"location_border_thickness": 5,
+		"location_size": 18,
+		"location_border_thickness": 2,
         "img": "images/maps/victory_road.png"
     },
 	{

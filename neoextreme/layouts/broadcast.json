@@ -1,5 +1,5 @@
 {
-    "boardcast": {
+    "broadcast": {
         "type": "array",
         "orientation": "vertical",
 		/*"background": "#ADD8E6",*/

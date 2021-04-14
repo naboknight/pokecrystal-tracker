@@ -14,8 +14,8 @@
                         "item_count": 1
                     },
                     {
-                        "name": "TM Gift",
-						"visibility_rules": ["full_item"],
+                        "name": "TM29",
+
                         "item_count": 1
                     },
                     {
@@ -231,10 +231,8 @@
                 "access_rules": ["@Saffron City, [@canUseFlash]"],
                 "sections": [
                     {
-                        "name": "1F Ground",
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 2
+                        "name": "TM47",
+                        "item_count": 1
                     },
                     {
                         "name": "B1F Ground",
@@ -246,9 +244,14 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2784,
-                        "y": 370
-                    }
+                        "x": 812,
+                        "y": 920
+                    },
+					                    {
+                        "map": "rock_tunnel",
+                        "x": 155,
+                        "y": 650
+                    },
                 ]
             },
 			{
@@ -375,8 +378,7 @@
 				"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,snorlax,[backward_kanto]"],
                 "sections": [
                     {
-                        "name": "TM Gift",
-						"visibility_rules": ["full_item"],
+                        "name": "TM42",						
 						"access_rules": ["@canUseCut", "@canUseSurf"],
                         "item_count": 1
                     },
@@ -598,10 +600,8 @@
                 "access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "snorlax, @canUseCut"],
                 "sections": [
                     {
-                        "name": "1F Ground",
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 2
+                        "name": "TM 26",
+                        "item_count": 1
                     },
                     {
                         "name": "2F Ground",
@@ -613,8 +613,13 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1700,
-                        "y": 370
+                        "x": 175,
+                        "y": 854
+                    },
+					                    {
+                        "map": "victory_road",
+                        "x": 75,
+                        "y": 350
                     }
                 ]
             },
@@ -631,7 +636,7 @@
 					{
 						"map": "johto_kanto",
 						"x": 175,
-						"y": 854,
+						"y": 824,
 					}
 				]
 			},
