@@ -120,6 +120,7 @@
                         "name": "Hand In Red Scale",
                         "access_rules": ["red_scale"],
 						"visibility_rules": ["full_item"],
+
                         "item_count": 1
                     }
                 ],
@@ -786,7 +787,7 @@
                 "sections": [
                     {
                         "name": "Rainbow Wing",
-                        "access_rules": ["red_gyarados"],
+                        "access_rules": ["red_gyarados", "@Ecruteak City, elite_four"],
 						"visibility_rules": ["tin_tower"],
                         "item_count": 1
                     },
@@ -1335,7 +1336,7 @@
                         "name": "Behind Rock Smash",
                         "access_rules": ["tm08"],
 						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
+
                         "item_count": 3
                     },
                     {
@@ -1355,8 +1356,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1035,
-                        "y": 456
+                        "x": 680,
+                        "y": 326
                     }
                 ]
             },
@@ -1392,8 +1393,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1200,
-                        "y": 788
+                        "x": 720,
+                        "y": 490
                     }
                 ]
             },
