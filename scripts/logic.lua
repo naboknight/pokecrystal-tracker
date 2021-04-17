@@ -14,6 +14,11 @@ function haveEightBadges()
 	return badges >= 8
 end
 
+function haveSevenGyms()
+	local gymc = Tracker:ProviderCountForCode("falkner") + Tracker:ProviderCountForCode("bugsy") + Tracker:ProviderCountForCode("whitney") + Tracker:ProviderCountForCode("morty") + Tracker:ProviderCountForCode("jasmine") + Tracker:ProviderCountForCode("chuck") + Tracker:ProviderCountForCode("pryce") + Tracker:ProviderCountForCode("clair") + Tracker:ProviderCountForCode("blue") + Tracker:ProviderCountForCode("blaine") + Tracker:ProviderCountForCode("janine") + Tracker:ProviderCountForCode("erika") + Tracker:ProviderCountForCode("lt-surge") + Tracker:ProviderCountForCode("misty") + Tracker:ProviderCountForCode("brock")
+	return gymc >= 7
+end
+
 function noRandomPokedex()
 	return not Tracker:FindObjectForCode("random_pokedex").Active
 end

@@ -49,8 +49,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1365,
-                        "y": 868
+                        "x": 840,
+                        "y": 527
                     }
                 ]
             },
@@ -66,8 +66,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1200,
-                        "y": 868
+                        "x": 720,
+                        "y": 525
                     }
                 ]
             },
@@ -84,8 +84,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 948,
-                        "y": 868
+                        "x": 630,
+                        "y": 525
                     }
                 ]
             },
@@ -120,14 +120,15 @@
                         "name": "Hand In Red Scale",
                         "access_rules": ["red_scale"],
 						"visibility_rules": ["full_item"],
+
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 948,
-                        "y": 656
+                        "x": 642,
+                        "y": 456
                     }
                 ]
             },
@@ -150,8 +151,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 948,
-                        "y": 456
+                        "x": 640,
+                        "y": 370
                     }
                 ]
             },
@@ -165,6 +166,7 @@
                     },
                     {
                         "name": "Gym - Falkner",
+						
                         "hosted_item": "falkner"
                     },
                     {   
@@ -178,8 +180,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 784,
-                        "y": 456
+                        "x": 534,
+                        "y": 346
                     }
                 ]
             },
@@ -211,8 +213,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 784,
-                        "y": 371
+                        "x": 545,
+                        "y": 306
                     }
                 ]
             },
@@ -224,12 +226,41 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 4
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 497,
+                        "y": 360
+                    }
+                ]
+            },
+			{
+                "name": "Ruins Of Alph",
+                "sections": [
+
                     {
                         "name": "Flash Treasure Room",
                         "access_rules": ["@canUseFlash, @canUseSurf"],
 						"visibility_rules": ["full_item"],
                         "item_count": 4
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 497,
+                        "y": 420
+                    }
+                ]
+            },
+			{
+                "name": "Ruins Of Alph",
+                "sections": [
+
+
                     {
                         "name": "Water Stone Treasure Room",
                         "access_rules": ["@canUseStrength, @canUseSurf, water_stone"],
@@ -246,11 +277,20 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 702,
-                        "y": 622
+                        "x": 473,
+                        "y": 390
                     }
                 ]
             },
+			
+			
+			
+			{
+				"name": "After Falkner",
+				"access_rules": ["falkner","squirt_bottle"],
+				"children": [
+			
+			
             {
                 "name": "Route 32",     
                 "sections": [
@@ -279,8 +319,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 784,
-                        "y": 788
+                        "x": 525,
+                        "y": 508
                     }
                 ]
             },
@@ -288,10 +328,8 @@
                 "name": "Union Cave",
                 "sections": [
                     {
-                        "name": "1F",
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 4
+                        "name": "TM39",
+                        "item_count": 1
                     },
                     {
                         "name": "BF1",
@@ -310,8 +348,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 784,
-                        "y": 1118
+                        "x": 495,
+                        "y": 525
                     }
                 ]
             },
@@ -333,6 +371,7 @@
                     {
                         "name": "Gym - Bugsy",
 						"access_rules": ["rocketgrunt"],
+						
                         "hosted_item": "bugsy"
                     },
                     {   "name": "Charcoal",
@@ -344,8 +383,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 620,
-                        "y": 1118
+                        "x": 450,
+                        "y": 615
                     }
                 ]
             },
@@ -377,8 +416,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 650,
-                        "y": 1040
+                        "x": 495,
+                        "y": 580
                     }
                 ]
             },
@@ -412,8 +451,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 454,
-                        "y": 1118
+                        "x": 415,
+                        "y": 610
                     }
                 ]
             },
@@ -441,8 +480,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 454,
-                        "y": 953
+                        "x": 412,
+                        "y": 560
                     }
                 ]
             },
@@ -476,15 +515,8 @@
 								"visibility_rules": ["full_item"],
                                 "item_count": 1 
                             },                             
-                            {
-                                "name": "Bike Shop",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Flower Shop",
-                                "access_rules": ["plain_badge"],
-                                "item_count": 1
-                            },
+
+
                             {
                                 "name": "Gym Leader TM",
 								"visibility_rules": ["full_item"],
@@ -492,17 +524,57 @@
                             },
                             {
                                 "name": "Gym - Whitney",
+								
                                 "hosted_item": "whitney"
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 454,
-                                "y": 788
+                                "x": 394,
+                                "y": 460
                             }
                         ]
                     },
+
+                    {
+                        "name": "Goldenrod City",
+                        "sections": [
+                                      
+                            {
+                                "name": "Bike Shop",
+                                "item_count": 1
+                            },
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 424,
+                                "y": 490
+                            }
+                        ]
+                    },
+
+                    {
+                        "name": "Goldenrod City",
+                        "sections": [
+
+                            {
+                                "name": "Flower Shop",
+                                "access_rules": ["plain_badge"],
+                                "item_count": 1
+                            },
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 424,
+                                "y": 460
+                            }
+                        ]
+                    },					
                     {
                         "name": "Goldenrod Radio Tower",
                         "sections": [
@@ -520,40 +592,70 @@
                                 "name": "Buena",
                                 "item_count": 1
                             },
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 330,
+                                "y": 470
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Radio Tower",
+                        "sections": [
+
                             {
                                 "name": "False Director",
                                 "access_rules": ["$canFightTeamRocket"],
                                 "item_count": 1
                             },
+
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 330,
+                                "y": 495
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Radio Tower",
+                        "sections": [
+
                             {
                                 "name": "Defeat Team Rocket",
                                 "access_rules": ["$canFightTeamRocket,card_key"],
                                 "hosted_item": "team_rocket"
                             },
-                            {
+							{
                                 "name": "After Defeating Team Rocket",
-                                "access_rules": ["team_rocket"],
 								"visibility_rules": ["full_item"],
-                                "clear_as_group": false,
+                                "access_rules": ["team_rocket"],								                              
                                 "item_count": 3
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 384,
-                                "y": 788
+                                "x": 355,
+                                "y": 470
                             }
                         ]
                     },
                     {
                         "name": "Goldenrod Underground",
                         "sections": [
+
                             {
-                                "name": "Shops",
+                                "name": "Save The Director",
+                                "access_rules": ["basement_key,$canFightTeamRocket"],
                                 "item_count": 1
                             },
-                            {
+							{
                                 "name": "Warehouse Front",
                                 "access_rules": ["basement_key"],
 								"visibility_rules": ["full_item"],
@@ -567,17 +669,29 @@
                                 "clear_as_group": false,
                                 "item_count": 3
                             },
-                            {
-                                "name": "Save The Director",
-                                "access_rules": ["basement_key,$canFightTeamRocket"],
-                                "item_count": 1
-                            }
                         ],
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 422,
-                                "y": 722
+                                "x": 355,
+                                "y": 440
+                            }
+                        ]
+                    },					
+                    {
+                        "name": "Goldenrod Underground",
+                        "sections": [
+                            {
+                                "name": "Shops",
+                                "item_count": 1
+                            },                            
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 330,
+                                "y": 440
                             }
                         ]
                     }
@@ -602,8 +716,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 454,
-                        "y": 456
+                        "x": 395,
+                        "y": 310
                     }
                 ]
             },
@@ -631,8 +745,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 454,
-                        "y": 589
+                        "x": 411,
+                        "y": 380
                     }
                 ]
             },
@@ -647,19 +761,20 @@
                     },
                     {
                         "name": "Receive Mans Item",
-                        "access_rules": ["sudowoodo"],
-						"visibility_rules": ["full_item"],
+                        "access_rules": ["sudowoodo"],						
                         "hosted_item": "rocksmashguy"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 619,
-                        "y": 456
+                        "x": 455,
+                        "y": 335
                     }
                 ]
             },
+			]
+			},
 			{
                 "name": "Ecruteak City",
                 "access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
@@ -679,14 +794,15 @@
                     },
                     {
                         "name": "Gym - Morty",
-                        "hosted_item": "morty"
+                        "hosted_item": "morty",
+						
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 616,
-                        "y": 286
+                        "x": 426,
+                        "y": 236
                     }
                 ]
             },
@@ -697,7 +813,6 @@
                     {
                         "name": "Ground Floor",
                         "access_rules": ["tm08"],
-						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -710,8 +825,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 566,
-                        "y": 206
+                        "x": 409,
+                        "y": 204
                     }
                 ]
             },
@@ -722,71 +837,17 @@
                 "sections": [
                     {
                         "name": "Rainbow Wing",
-                        "access_rules": ["red_gyarados"],
+                        "access_rules": ["red_gyarados", "@Ecruteak City, elite_four"],
 						"visibility_rules": ["tin_tower"],
                         "item_count": 1
                     },
-					{
-                        "name": "3F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 1
-                    },
-					{
-                        "name": "4F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 3
-                    },
-					{
-                        "name": "5F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 1
-                    },
-					{
-                        "name": "6F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 1
-                    },
-					{
-                        "name": "7F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 1
-                    },
-					{
-                        "name": "8F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 3
-                    },
-					{
-                        "name": "9F",
-                        "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-						"clear_as_group": false,
-                        "item_count": 1
-                    },
-					{
-                        "name": "Defeat Ho-oh",
-                        "access_rules": ["elite_four, rainbow_wing"],
-						"visibility_rules": ["tin_tower, full_item"],
-                        "hosted_item": "ho-oh"
-                    }					
+				
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 666,
-                        "y": 206
+                        "x": 440,
+                        "y": 201
                     }
                 ]
             },
@@ -802,23 +863,39 @@
                         "name": "Cafe",
                         "item_count": 1
                     },
+                    
+                ],
+                "map_locations": [
                     {
+                        "map": "johto_kanto",
+                        "x": 300,
+                        "y": 376
+                    }
+                ]
+            },
+			{
+                "name": "Gym Jasmine",
+                "access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
+                "sections": [
+					{
                         "name": "Gym Leader TM",
                         "access_rules": ["return_potion"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
+
                     {
                         "name": "Gym - Jasmine",
                         "access_rules": ["return_potion"],
+						
                         "hosted_item": "jasmine"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 285,
-                        "y": 456
+                        "x": 300,
+                        "y": 330
                     }
                 ]
             },
@@ -855,8 +932,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 370,
-                        "y": 456
+                        "x": 340,
+                        "y": 376
                     }
                 ]
             },
@@ -873,8 +950,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 285,
-                        "y": 536
+                        "x": 300,
+                        "y": 405
                     }
                 ]
             },
@@ -913,8 +990,54 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 201,
-                        "y": 783
+                        "x": 251,
+                        "y": 475
+                    }
+                ]
+            },
+            {
+                "name": "Cianwood City",
+                "access_rules": ["@Olivine City, @canUseSurf"],
+                "sections": [
+
+                    {
+                        "name": "Chuck's Wife",
+                        "access_rules": ["chuck"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym Leader TM",
+                        "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
+                        "item_count": 1
+                    },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 176,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "name": "Cianwood City",
+                "access_rules": ["@Olivine City, @canUseSurf"],
+                "sections": [
+
+                    {
+                        "name": "Gym - Chuck",
+                        "access_rules": ["@canUseStrength"],
+						
+                        "hosted_item": "chuck"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 176,
+                        "y": 430
                     }
                 ]
             },
@@ -927,31 +1050,17 @@
                         "access_rules": ["talk_jasmine"],
                         "item_count": 1
                     },
-                    {
-                        "name": "Chuck's Wife",
-                        "access_rules": ["chuck"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gym Leader TM",
-                        "access_rules": ["@canUseStrength"],
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gym - Chuck",
-                        "access_rules": ["@canUseStrength"],
-                        "hosted_item": "chuck"
-                    }
+
+
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 116,
-                        "y": 868
+                        "x": 176,
+                        "y": 490
                     }
                 ]
-            },
+            },			
 			{
                 "name": "Route 42",
                 "access_rules": ["@Ecruteak City"],
@@ -970,8 +1079,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 895,
-                        "y": 286
+                        "x": 555,
+                        "y": 255
                     }
                 ]
             },
@@ -1017,8 +1126,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 784,
-                        "y": 286
+                        "x": 525,
+                        "y": 220
                     }
                 ]
             },
@@ -1026,14 +1135,14 @@
                 "name": "Mahogany Town",
                 "access_rules": ["@Ecruteak City"],
                 "sections": [
-                    {
+                    
+					{
                         "name": "Rocket Hideout B1F",
                         "access_rules": ["red_gyarados"],
 						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
                         "item_count": 3
                     },
-                                        {
+                    {
                         "name": "Rocket Hideout B2F",
                         "access_rules": ["red_gyarados"],
 						"visibility_rules": ["full_item"],
@@ -1051,26 +1160,41 @@
                         "access_rules": ["red_gyarados"],
                         "hosted_item": "electrode"
                     },
-                    {
-                        "name": "Gym Leader TM",
-                        "access_rules": ["electrode"],
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gym - Pryce",
-                        "access_rules": ["electrode"],
-                        "hosted_item": "pryce"
-                    }
+
+
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1035,
-                        "y": 286
+                        "x": 605,
+                        "y": 238
                     }
                 ]
             },
+			{
+                "name": "Mahogany Town",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+					{
+                        "name": "TM46",
+                        "access_rules": ["red_gyarados"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Pryce",
+                        "access_rules": ["electrode"],						
+                        "hosted_item": "pryce"
+                    },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 605,
+                        "y": 270
+                    }
+                ]
+            },			
 			{
                 "name": "Route 43",
                 "access_rules": ["@Ecruteak City"],
@@ -1081,17 +1205,16 @@
                         "item_count": 1
                     },
                     {   
-                        "name": "Guard Item",
+                        "name": "Guard Item TM36",
                         "access_rules": ["electrode"],
-						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1035,
-                        "y": 206
+                        "x": 605,
+                        "y": 190
                     }
                 ]
             },
@@ -1115,7 +1238,7 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1035,
+                        "x": 605,
                         "y": 126
                     }
                 ]
@@ -1140,8 +1263,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1160,
-                        "y": 286
+                        "x": 680,
+                        "y": 255
                     }
                 ]
             },
@@ -1159,9 +1282,9 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Third Room Post-Strength",
+                        "name": "TM44",
                         "access_rules": ["@canUseStrength"],
-						"visibility_rules": ["full_item"],
+						
                         "item_count": 1
                     },
                     {
@@ -1193,8 +1316,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1205,
-                        "y": 206
+                        "x": 795,
+                        "y": 176
                     }
                 ]
             },
@@ -1211,14 +1334,15 @@
                     {
                         "name": "Gym - Clair",
                         "access_rules": ["team_rocket"],
+						
                         "hosted_item": "clair"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1285,
-                        "y": 286
+                        "x": 775,
+                        "y": 243
                     }
                 ]
             },
@@ -1254,7 +1378,7 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1285,
+                        "x": 795,
                         "y": 206
                     }
                 ]
@@ -1271,10 +1395,25 @@
                     {   
                         "name": "Behind Rock Smash",
                         "access_rules": ["tm08"],
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
+
+
                         "item_count": 3
                     },
+                  
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 645,
+                        "y": 340
+                    }
+                ]
+            },
+			{
+                "name": "Dark Cave Blackthorn",
+                "access_rules": ["[@canUseFlash]"],
+                "sections": [
+
                     {
                         "name": "Blackthorn Side Ground",
                         "access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
@@ -1292,8 +1431,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1035,
-                        "y": 456
+                        "x": 720,
+                        "y": 295
                     }
                 ]
             },
@@ -1311,8 +1450,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1285,
-                        "y": 456
+                        "x": 760,
+                        "y": 353
                     }
                 ]
             },
@@ -1322,15 +1461,14 @@
                 "sections": [
                     {
                         "name": "Ground Item",
-						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1200,
-                        "y": 788
+                        "x": 720,
+                        "y": 490
                     }
                 ]
             },
@@ -1367,9 +1505,14 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1450,
-                        "y": 536
-                    }
+                        "x": 950,
+                        "y": 375
+                    },
+                    {
+                        "map": "johto_kanto",
+                        "x": 70,
+                        "y": 1040
+                    },					
                 ]
             }
         ]

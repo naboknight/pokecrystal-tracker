@@ -3,15 +3,12 @@
     "game_name": "Pokémon Crystal",
     "platform": "gb",
     "package_version": "2.0",
-    "package_uid": "pokemon_crystal_randomizer_dillon_vicendithas_x",
-    "author": "DillonIsMyName and Vicendithas",
+    "package_uid": "pokemon_crystal_randomizer_dillon_vicendithas_nabo",
+    "author": "Nabo",
     "variants": {
         "itemrando": {
             "display_name": "Item and Badge Randomizer"
         },
-		
-		"neoextreme": {
-		"display_name": "Neo Extreme Key Item"
-    },		
+	
     }
 }

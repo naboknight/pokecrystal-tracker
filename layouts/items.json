@@ -1,102 +1,142 @@
 {
     "tracker_items": {
         "type": "array",
-        "orientation": "horizontal",
+        
 		
-
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
+                "h_alignment": "center",
+				
                 "item_margin": "1,2",
                 "rows": [
-                    [
-						"pokegear",
-						"radio_card",
-                        "expansion_card",
-						"squirt_bottle",
-                        "secret_potion",
-                        "card_key",
-						"ss_ticket",
-                        "pass",
-						"",
-						""
-                    ],
+					[""],
 					[
-						"machine_part",
-						"clear_bell",
-						"rainbow_wing",
-						"silver_wing",
-						"basement_key",
-                        "lost_item",
-						"red_scale",
-						"mystery_egg",
-						"water_stone",
-						""
-                    ],
+					    
+						"hm01",
+						"hive_badge",
+						
+					],
 					[
-                        "pokedex",
-						"bicycle",
-                        "blue_card",
-                        "coin_case",
-                        "item_finder",
-                        "old_rod",
-                        "good_rod",
-                        "super_rod",
-						"",
-						""
-                    ],
-                    [
-                        "hm01",
-                        "hm02",
-                        "hm03",
-                        "hm04",
-                        "hm05",
-                        "hm06",
-                        "hm07",
+						
+						"hm02",
+						"storm_badge",
+						
+					],
+					[
+						
+						"hm03",
+						"fog_badge",
+						
+					],
+					[
+						
+						"hm04",
+						"plain_badge",
+						
+					],
+					[
+						
+						"hm05",
+						"zephyr_badge",
+						
+					],
+					[
+						
+						"hm06",
+						"glacier_badge",
+						
+					],
+					[
+						
+						"hm07",
+						"rising_badge",
+						
+					],
+					[
 						"tm08",
+						"rainbow_badge"					
+					],
+					
+					[""],
+
+					[
+						
+						"pokegear",
+						"card_key",
+						
+					],
+					[
+						
+						"radio_card",
+						"ss_ticket",
+						
+					],
+					[
+						
+						"expansion_card",
+						"pass",
+						
+					],
+					[
 						"",
-						""
-                    ],
-                    [
-                        "zephyr_badge",
-                        "hive_badge",
-                        "plain_badge",
-                        "fog_badge",
-                        "storm_badge",
-                        "mineral_badge",
-                        "glacier_badge",
-                        "rising_badge",
-						"",
-						""
-                    ],
-                    [
-                        "boulder_badge",
-                        "cascade_badge",
-                        "thunder_badge",
-                        "rainbow_badge",
-                        "soul_badge",
-                        "marsh_badge",
-                        "volcano_badge",
-                        "earth_badge",
-						"",
-						""
-                    ],
+						
+					],
+					[
+						
+						"squirt_bottle",
+						"red_scale",
+						
+					],
+					[
+						
+						"secret_potion",
+						"basement_key",
+						
+					],
+					[
+						
+						"machine_part",
+						"lost_item",
+						
+					],
+					[
+						
+						"water_stone",
+						"mystery_egg",
+						
+					],
+					
+					[""],
+					
+					
 					[
 						"team_rocket",
-						"elite_four",
-						"red",
-						"go",
-						"",
-						"",
-						"",
-						"",
-						"",
-						""
-					]
+						"elite_four",		
+					],
+				
                 ]
             },
-            {
+			{
+                "type": "itemgrid",
+                "h_alignment": "center",
+				"item_size": 36,
+                "item_margin": "1,2",
+                "rows": [
+
+					[""],
+                ]
+            },
+            
+        ]
+
+    },
+	
+	"settings_popup": {
+        "type": "array",
+		"orientation": "horizontal",
+        "content": [
+{
                 "type": "itemgrid",
                 "v_alignment": "top",
                 "item_margin": "1,2",
@@ -122,13 +162,7 @@
 						"tin_tower"
 					]
                 ]
-            }
-        ]
-    },
-	"settings_popup": {
-        "type": "array",
-		"orientation": "horizontal",
-        "content": [
+            },		
             {
 				"type": "array",
 				"orientation": "vertical",

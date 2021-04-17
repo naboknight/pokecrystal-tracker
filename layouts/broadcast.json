@@ -36,10 +36,11 @@
 						"type": "itemgrid",
 						"v_alignment": "center",
 						"h_alignment": "center",
+						"item_size": 35,
 						"item_margin": "-2,-2",
 						"rows": [
 					
-							["old_rod"],
+							["item_finder"],
 
 						]
 					},

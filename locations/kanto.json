@@ -13,34 +13,66 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
-                    {
-                        "name": "TM Gift",
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
+
                     {
                         "name": "Fighting Dojo",
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },	
-                    {
-                        "name": "Copycat Girl",
-                        "access_rules": ["lost_item"],
-                        "item_count": 1
-                    },
+
                     {
                         "name": "Gym - Sabrina",
+						"access_rules": ["[$haveSevenGyms]"],
                         "hosted_item": "sabrina"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2452,
-                        "y": 536,
+                        "x": 590,
+                        "y": 1000,
                     }
                 ]
             },
+			{
+                "name": "Saffron City",
+				"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
+                "sections": [
+
+                    {
+                        "name": "TM29",
+
+                        "item_count": 1
+                    },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 580,
+                        "y": 1025,
+                    }
+                ]
+            },
+			{
+                "name": "Saffron City",
+				"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
+                "sections": [
+
+                    {
+                        "name": "Copycat Girl",
+                        "access_rules": ["lost_item"],
+                        "item_count": 1
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 620,
+                        "y": 1050,
+                    }
+                ]
+            },			
             {
                 "name": "Cerulean City",
 				"access_rules": ["@Saffron City"],
@@ -59,8 +91,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2452,
-                        "y": 370,
+                        "x": 582,
+                        "y": 920,
                     }
                 ]
             },
@@ -77,8 +109,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2452,
-                        "y": 454	
+                        "x": 587,
+                        "y": 963	
                     }
                 ]
             },
@@ -97,6 +129,21 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 590,
+                        "y": 840
+                    }
+                ]
+            },
+			{
+                "name": "Bills House",
+				"access_rules": ["@Saffron City"],
+                "sections": [
+
                     {
                         "name": "Speak To Misty",
                         "access_rules": ["power_plant_manager"],
@@ -106,8 +153,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2452,
-                        "y": 204
+                        "x": 660,
+                        "y": 840
                     }
                 ]
             },
@@ -120,16 +167,26 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1,
                     },
-                    {
-                        "name": "Pokémon Fan Doll",
-                        "access_rules": ["fix_power_plant"],
-                        "item_count": 1
-                    },
+
                     {
                         "name": "Gym - Lt. Surge",
                         "access_rules": ["@canUseCut", "@canUseSurf"],
                         "hosted_item": "lt-surge"
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 610,
+                        "y": 1120,
+                    }
+                ]
+            },
+			{
+                "name": "Vermilion City",
+				"access_rules": ["@Saffron City"],
+                "sections": [
                     {
                         "name": "Wake Up Snorlax",
                         "access_rules": ["pokegear,radio_card,expansion_card"],
@@ -139,8 +196,28 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2452,
-                        "y": 704,
+                        "x": 650,
+                        "y": 1124,
+                    }
+                ]
+            },			
+			{
+                "name": "Vermilion City",
+				"access_rules": ["@Saffron City"],
+                "sections": [
+
+                    {
+                        "name": "Pokémon Fan Doll",
+                        "access_rules": ["fix_power_plant"],
+                        "item_count": 1
+                    },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 580,
+                        "y": 1120,
                     }
                 ]
             },
@@ -152,6 +229,21 @@
                         "name": "Talk To Manager",
                         "hosted_item": "power_plant_manager"
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 812,
+                        "y": 970,
+                    }
+                ]
+            },
+			{
+                "name": "Power Plant",
+                "access_rules": [ "@Saffron City, @canUseCut, @canUseSurf", "@Saffron City, [@canUseFlash], @canUseSurf"],
+                "sections": [
+
                     {
                         "name": "Fix Power Plant",
                         "access_rules": ["machine_part"],
@@ -161,20 +253,18 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2784,
-                        "y": 454,
+                        "x": 812,
+                        "y": 1000,
                     }
                 ]
-            },
+            },			
 			{
                 "name": "Rock Tunnel",
                 "access_rules": ["@Saffron City, [@canUseFlash]"],
                 "sections": [
                     {
-                        "name": "1F Ground",
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 2
+                        "name": "TM47",
+                        "item_count": 1
                     },
                     {
                         "name": "B1F Ground",
@@ -186,9 +276,14 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2784,
-                        "y": 370
-                    }
+                        "x": 812,
+                        "y": 920
+                    },
+					                    {
+                        "map": "rock_tunnel",
+                        "x": 155,
+                        "y": 650
+                    },
                 ]
             },
 			{
@@ -211,8 +306,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2784,
-                        "y": 536,
+                        "x": 812,
+                        "y": 1050,
                     }
                 ]
             },
@@ -240,8 +335,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2784,
-                        "y": 704,
+                        "x": 812,
+                        "y": 1130,
                     }
                 ]
             },
@@ -264,8 +359,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2202,
-                        "y": 536,
+                        "x": 460,
+                        "y": 1042,
                     }
                 ]
             },
@@ -286,8 +381,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2370,
-                        "y": 1036,
+                        "x": 590,
+                        "y": 1270,
                     }
                 ]
             },
@@ -305,8 +400,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2618,
-                        "y": 1036
+                        "x": 730,
+                        "y": 1270
                     }
                 ]
             },
@@ -314,12 +409,7 @@
                 "name": "Viridian City",
 				"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,snorlax,[backward_kanto]"],
                 "sections": [
-                    {
-                        "name": "TM Gift",
-						"visibility_rules": ["full_item"],
-						"access_rules": ["@canUseCut", "@canUseSurf"],
-                        "item_count": 1
-                    },
+
                     {
                         "name": "Gym - Blue",
                         "access_rules": ["talk_blue"],
@@ -329,8 +419,27 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1956,
-                        "y": 622,
+                        "x": 338,
+                        "y": 1030,
+                    }
+                ]
+            },
+			{
+                "name": "Viridian City",
+				"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,snorlax,[backward_kanto]"],
+                "sections": [
+                    {
+                        "name": "TM42",						
+						"access_rules": ["@canUseCut", "@canUseSurf"],
+                        "item_count": 1
+                    },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 328,
+                        "y": 1070,
                     }
                 ]
             },
@@ -347,8 +456,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1954,
-                        "y": 953
+                        "x": 335,
+                        "y": 1230
                     }
                 ]
             },
@@ -376,8 +485,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1956,
-                        "y": 535
+                        "x": 338,
+                        "y": 960
                     }
                 ]
             },
@@ -395,8 +504,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1956,
-                        "y": 455
+                        "x": 338,
+                        "y": 990
                     }
                 ]
             },
@@ -416,8 +525,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1956,
-                        "y": 370,
+                        "x": 315,
+                        "y": 907,
                     }
                 ]
             },
@@ -434,8 +543,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2317,
-                        "y": 370
+                        "x": 520,
+                        "y": 923
                     }
                 ]
             },
@@ -451,8 +560,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1956,
-                        "y": 1202,
+                        "x": 350,
+                        "y": 1350,
                     }
                 ]
             },
@@ -468,8 +577,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 2117,
-                        "y": 1202,
+                        "x": 460,
+                        "y": 1350,
                     }
                 ]
             },
@@ -486,8 +595,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1540,
-                        "y": 868,
+                        "x": 75,
+                        "y": 1230,
                     }
                 ]
             },
@@ -510,8 +619,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1700,
-                        "y": 868,
+                        "x": 160,
+                        "y": 1230,
                     }
                 ]
             },
@@ -528,8 +637,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1700,
-                        "y": 622
+                        "x": 170,
+                        "y": 1130
                     }
                 ]
             },
@@ -538,10 +647,8 @@
                 "access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "snorlax, @canUseCut"],
                 "sections": [
                     {
-                        "name": "1F Ground",
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 2
+                        "name": "TM 26",
+                        "item_count": 1
                     },
                     {
                         "name": "2F Ground",
@@ -553,8 +660,13 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 1700,
-                        "y": 370
+                        "x": 175,
+                        "y": 914
+                    },
+					                    {
+                        "map": "victory_road",
+                        "x": 75,
+                        "y": 350
                     }
                 ]
             },
@@ -570,8 +682,8 @@
 				"map_locations": [
 					{
 						"map": "johto_kanto",
-						"x": 1704,
-						"y": 204,
+						"x": 175,
+						"y": 824,
 					}
 				]
 			},

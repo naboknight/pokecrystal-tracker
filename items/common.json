@@ -29,7 +29,32 @@
         "img": "images/items/expansion_card.png",
         "codes": "expansion_card"
     },
+	
 	{
+    "name": "Rod",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/old_rod.png",
+        "img_mods": "@disabled",
+      },
+      {
+        "img": "images/items/old_rod.png",
+		"codes": "old_rod"
+      },
+      {
+        "img": "images/items/good_rod.png",
+		"codes": "old_rod, good_rod"
+      },
+      {
+        "img": "images/items/super_rod.png",
+		"codes": "old_rod, good_rod, super_rod"
+      }
+    ]
+	},
+	
+	/*{
         "name": "Old Rod",
         "type": "toggle",
         "img": "images/items/old_rod.png",
@@ -46,7 +71,7 @@
         "type": "toggle",
         "img": "images/items/super_rod.png",
         "codes": "super_rod"
-    },
+    },*/
 	{
         "name": "Bicycle",
         "type": "toggle",
@@ -125,12 +150,18 @@
         "img": "images/items/blue_card.png",
         "codes": "blue_card"
     },
-	{
+		{
         "name": "Itemfinder",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/item_finder.png",
-        "codes": "item_finder"
+        "swap_actions" :true,
+        "max_quantity": 21,
+        "min_quantity": 0,
+        "increment": 1,
+        "initial_quantity": 21,
+		"codes": "item_finder"
     },
+
 	{
         "name": "Red Scale",
         "type": "toggle",
@@ -235,6 +266,7 @@
         "img": "images/badges/fog_badge.png",
         "codes": "fog_badge,badge"
     },
+
     {
         "name": "Storm Badge",
         "type": "toggle",
@@ -277,11 +309,16 @@
         "img": "images/badges/thunder_badge.png",
         "codes": "thunder_badge,badge"
     },
-    {
+	{
         "name": "Rainbow Badge",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/badges/rainbow_badge.png",
-        "codes": "rainbow_badge,badge"
+        "swap_actions" :true,
+        "max_quantity": 9,
+        "min_quantity": 0,
+        "increment": -1,
+        "initial_quantity": 0,
+		"codes": "rainbow_badge,badge"
     },
     {
         "name": "Soul Badge",
@@ -606,7 +643,7 @@
         "type": "toggle",
         "img": "images/items/pokegear.png",
         "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
+		"initial_active_state": true,
         "codes": "random_pokegear"
     },
 	{
@@ -614,7 +651,7 @@
         "type": "toggle",
         "img": "images/items/pokedex.png",
         "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
+		"initial_active_state": true,
         "codes": "random_pokedex"
     },
 	{
@@ -622,7 +659,7 @@
         "type": "toggle",
         "img": "images/items/radio_card.png",
         "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
+		"initial_active_state": true,
         "codes": "random_radio"
     },
 	{
