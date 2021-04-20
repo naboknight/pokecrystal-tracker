@@ -1,7 +1,8 @@
-    "boardcast": {
+{
+    "broadcast": {
         "type": "array",
         "orientation": "vertical",
-		"background": "#ADD8E6",
+		/*"background": "#ADD8E6",*/
         "content": [
 			{
 				"type": "array",
@@ -35,10 +36,11 @@
 						"type": "itemgrid",
 						"v_alignment": "center",
 						"h_alignment": "center",
+						"item_size": 10,
 						"item_margin": "-2,-2",
 						"rows": [
 					
-							["old_rod"],
+							[""],
 
 						]
 					},
@@ -53,15 +55,16 @@
 							[
 								"squirt_bottle",
 								"secret_potion",
-								"machine_part",							
+								"machine_part",	
+								"mystery_egg"
 							],												
 					
 							[
 
-								"clear_bell",
+								"red_scale",
 								"basement_key",
 								"lost_item",						
-
+								"water_stone"
 
 							],
 
@@ -87,7 +90,7 @@
                         "hm05",
                         "hm06",
                         "hm07",
-						"rainbow_badge",
+						"tm08",
 						
 						
                     ],
@@ -99,7 +102,7 @@
                         "zephyr_badge",
 						"glacier_badge",
 						"rising_badge",
-                        "mineral_badge",                        
+                        "rainbow_badge",                        
                         
                     ],
 
@@ -110,3 +113,4 @@
         ]
 
     },
+}
