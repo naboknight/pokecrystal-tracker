@@ -872,6 +872,22 @@
                         "name": "Kimono Girls",
                         "item_count": 1
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 436,
+                        "y": 246
+						
+                    }
+                ]
+            },
+						{
+                "name": "Ecruteak City",
+                "access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
+                "sections": [
+
                     {
                         "name": "Gym Leader TM",
 						"visibility_rules": ["full_item"],
@@ -886,8 +902,9 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 426,
-                        "y": 236
+                        "x": 406,
+                        "y": 260,
+						"size": 25
                     }
                 ]
             },
@@ -1008,6 +1025,23 @@
                         "name": "Lighthouse - Talk to Jasmine",
                         "hosted_item": "talk_jasmine"
                     },
+					
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 340,
+                        "y": 370
+						
+                    }
+                ]
+            },
+			{
+			
+                "name": "Olivine Lighthouse",
+                "access_rules": ["@Olivine City"],
+                "sections": [
+
 					{
                         "name": "Lighthouse - Return Secretpotion",
 						"access_rules": ["secret_potion"],
@@ -1018,7 +1052,8 @@
                     {
                         "map": "johto_kanto",
                         "x": 340,
-                        "y": 376
+                        "y": 393,
+						"size": 23
                     }
                 ]
             },
