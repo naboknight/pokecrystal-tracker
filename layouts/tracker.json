@@ -103,7 +103,7 @@
 										"type": "recentpins",
 										"style": "wrap",
 
-										"compact": false
+										"compact": true
 										}
                         }
                     ]

@@ -116,6 +116,20 @@
 						"visibility_rules": ["random_pokedex"],
                         "item_count": 1
                     },
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 642,
+                        "y": 456
+                    }
+                ]
+            },
+			{
+                "name": "Route 30",
+                "sections": [
+                 
                     {   
                         "name": "Hand In Red Scale",
                         "access_rules": ["red_scale"],
@@ -128,7 +142,7 @@
                     {
                         "map": "johto_kanto",
                         "x": 642,
-                        "y": 456
+                        "y": 426
                     }
                 ]
             },
@@ -141,6 +155,20 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 2
                     },
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 640,
+                        "y": 370
+                    }
+                ]
+            },
+            {
+                "name": "Route 31",
+                "sections": [
+                  
                     {
                         "name": "Deliver The Mail",
                         "access_rules": ["kenya"],
@@ -151,11 +179,12 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 640,
+                        "x": 610,
                         "y": 370
                     }
                 ]
-            },
+            },			
+			
 			{
                 "name": "Violet City",
                 "sections": [
@@ -169,8 +198,22 @@
 						
                         "hosted_item": "falkner"
                     },
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 544,
+                        "y": 346
+                    }
+                ]
+            },
+			{
+                "name": "Violet City",
+                "sections": [
+               
                     {   
-                        "name": "Ground Items",
+                        "name": "Surf Ground Items",
                         "access_rules": ["@canUseSurf"],
 						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
@@ -180,8 +223,9 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 534,
-                        "y": 346
+                        "x": 530,
+                        "y": 316,
+						"size": 25
                     }
                 ]
             },
@@ -213,8 +257,8 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 545,
-                        "y": 306
+                        "x": 555,
+                        "y": 316
                     }
                 ]
             },
@@ -328,8 +372,8 @@
                 "name": "Union Cave",
                 "sections": [
                     {
-                        "name": "TM39",
-                        "item_count": 1
+                        "name": "F1",
+                        "item_count": 4
                     },
                     {
                         "name": "BF1",
@@ -482,6 +526,7 @@
                         "map": "johto_kanto",
                         "x": 412,
                         "y": 560
+						
                     }
                 ]
             },
@@ -517,6 +562,21 @@
                             },                             
 
 
+                           
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 394,
+                                "y": 475,
+								"size": 25
+                            }
+                        ]
+                    },
+					{
+                        "name": "Goldenrod City",
+                        "sections": [                                           
+
                             {
                                 "name": "Gym Leader TM",
 								"visibility_rules": ["full_item"],
@@ -532,10 +592,12 @@
                             {
                                 "map": "johto_kanto",
                                 "x": 394,
-                                "y": 460
+                                "y": 448,
+								"size": 25
                             }
                         ]
                     },
+
 
                     {
                         "name": "Goldenrod City",
@@ -550,8 +612,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 424,
-                                "y": 490
+                                "x": 419,
+                                "y": 475,
+								"size": 25
                             }
                         ]
                     },
@@ -570,8 +633,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 424,
-                                "y": 460
+                                "x": 419,
+                                "y": 448,
+								"size": 25
                             }
                         ]
                     },					
@@ -597,8 +661,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 330,
-                                "y": 470
+                                "x": 327,
+                                "y": 470,
+								"size": 25
                             }
                         ]
                     },
@@ -617,8 +682,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 330,
-                                "y": 495
+                                "x": 327,
+                                "y": 492,
+								"size": 25
                             }
                         ]
                     },
@@ -631,6 +697,22 @@
                                 "access_rules": ["$canFightTeamRocket,card_key"],
                                 "hosted_item": "team_rocket"
                             },
+							
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 350,
+                                "y": 492,
+								"size": 25
+                            }
+                        ]
+                    },
+					                    {
+                        "name": "Goldenrod Radio Tower",
+                        "sections": [
+
+                            
 							{
                                 "name": "After Defeating Team Rocket",
 								"visibility_rules": ["full_item"],
@@ -641,8 +723,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 355,
-                                "y": 470
+                                "x": 350,
+                                "y": 470,
+								"size": 25
                             }
                         ]
                     },
@@ -673,8 +756,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 355,
-                                "y": 440
+                                "x": 350,
+                                "y": 440,
+								"size": 25
                             }
                         ]
                     },					
@@ -690,8 +774,9 @@
                         "map_locations": [
                             {
                                 "map": "johto_kanto",
-                                "x": 330,
-                                "y": 440
+                                "x": 327,
+                                "y": 440,
+								"size":25
                             }
                         ]
                     }
@@ -1222,13 +1307,7 @@
                 "name": "Lake of Rage",
                 "access_rules": ["@Ecruteak City"],
                 "sections": [
-                    {   
-                        "name": "Lake Of Rage",
-                        "access_rules": ["@canUseCut"],
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 3
-                    },
+                    
                     {
                         "name": "Red Gyarados",
                         "access_rules": ["@canUseSurf"],
@@ -1240,6 +1319,27 @@
                         "map": "johto_kanto",
                         "x": 605,
                         "y": 126
+                    }
+                ]
+            },
+			{
+                "name": "Lake of Rage",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {   
+                        "name": "Lake Of Rage",
+                        "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
+                        "clear_as_group": false,
+                        "item_count": 3
+                    },
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 605,
+                        "y": 90
                     }
                 ]
             },
@@ -1392,6 +1492,23 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
+                    
+                  
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 635,
+                        "y": 340,
+						"size": 25
+                    }
+                ]
+            },
+			{
+                "name": "Dark Cave",
+                "access_rules": ["[@canUseFlash]"],
+                "sections": [
+                  
                     {   
                         "name": "Behind Rock Smash",
                         "access_rules": ["tm08"],
@@ -1404,8 +1521,9 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 645,
-                        "y": 340
+                        "x": 655,
+                        "y": 340,
+						"size": 25
                     }
                 ]
             },
@@ -1476,6 +1594,31 @@
                 "name": "Mt. Silver",
                 "access_rules": ["oak"],
                 "sections": [
+
+                    {
+                        "name": "Red",
+                        "access_rules": ["elite_four", "$noEliteFour"],
+                        "hosted_item": "red"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 930,
+                        "y": 370
+						
+                    },
+                    {
+                        "map": "johto_kanto",
+                        "x": 70,
+                        "y": 1040
+                    },					
+                ]
+            },
+			{
+                "name": "Mt. Silver",
+                "access_rules": ["oak"],
+                "sections": [
                     {
                         "name": "1F Ground",
 						"visibility_rules": ["full_item"],
@@ -1496,21 +1639,18 @@
                         "clear_as_group": false,
                         "item_count": 2
                     },
-                    {
-                        "name": "Red",
-                        "access_rules": ["elite_four", "$noEliteFour"],
-                        "hosted_item": "red"
-                    }
+                   
                 ],
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 950,
-                        "y": 375
+                        "x": 960,
+                        "y": 370
+						
                     },
                     {
                         "map": "johto_kanto",
-                        "x": 70,
+                        "x": 100,
                         "y": 1040
                     },					
                 ]
