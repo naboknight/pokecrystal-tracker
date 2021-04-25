@@ -1,0 +1,116 @@
+{
+    "broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+		/*"background": "#ADD8E6",*/
+        "content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"h_alignment": "center",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"v_alignment": "center",
+						"item_margin": "1,1",
+						"rows": [
+					
+				
+							[
+								"pokegear",
+								"radio_card",
+								"expansion_card",									
+							],					
+					
+							[
+								"card_key",
+								"ss_ticket",
+								"pass",
+						
+							],
+
+						]
+					},
+					{
+						"type": "itemgrid",
+						"v_alignment": "center",
+						"h_alignment": "center",
+						"item_size": 10,
+						"item_margin": "-2,-2",
+						"rows": [
+					
+							[""],
+
+						]
+					},
+					{
+						"type": "itemgrid",
+						"v_alignment": "bottom",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"rows": [
+					
+							
+							[
+								"squirt_bottle",
+								"secret_potion",
+								"machine_part",	
+								"mystery_egg"
+							],												
+					
+							[
+
+								"red_scale",
+								"basement_key",
+								"lost_item",						
+								"water_stone"
+
+							],
+
+						]
+					},
+				] 
+			},
+			{
+                "type": "itemgrid",
+                "h_alignment": "left",
+				"v_alignment": "bottom",
+                "item_margin": "1,2",
+                "rows": [
+					
+				
+                   
+
+                    [
+                        "hm01",
+                        "hm02",
+                        "hm03",
+                        "hm04",
+                        "hm05",
+                        "hm06",
+                        "hm07",
+						"tm08",
+						
+						
+                    ],
+                    [
+                        "hive_badge",
+                        "storm_badge",                        
+                        "fog_badge",
+						"plain_badge",
+                        "zephyr_badge",
+						"glacier_badge",
+						"rising_badge",
+                        "rainbow_badge",                        
+                        
+                    ],
+
+
+                ]
+            },	
+            
+        ]
+
+    },
+}

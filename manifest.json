@@ -6,8 +6,11 @@
     "package_uid": "pokemon_crystal_randomizer_dillon_vicendithas_nabo",
     "author": "Nabo",
     "variants": {
-        "itemrando": {
-            "display_name": "Item and Badge Randomizer"
+        "vertical": {
+            "display_name": "Vertical"
+        },
+		"horizontal": {
+            "display_name": "Horizontal"
         },
 	
     }

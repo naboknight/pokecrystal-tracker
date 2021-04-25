@@ -4,6 +4,10 @@
         "chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
         "children": [
+		{
+				"name": "After Falkner",
+				"access_rules": ["falkner","squirt_bottle"],
+				"children": [
 			{
                 "name": "Saffron City",
 				"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
@@ -402,6 +406,7 @@
                     }
                 ]
             },
+		]},
 			{
                 "name": "Viridian City",
 				"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,snorlax,[backward_kanto]"],
