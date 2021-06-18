@@ -49,7 +49,7 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 840,
+                        "x": 795,
                         "y": 527
                     }
                 ]
@@ -344,16 +344,7 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
-                    {
-                        "name": "Ground Items",
-                        "clear_as_group": false,
-						"visibility_rules": ["full_item"],
-                        "item_count": 2
-                    },                        
-                    {    
-                        "name": "Pokémon Center",
-                        "item_count": 1
-                    },
+
                     {   "name": "Guy Behind Cut Bush",
                         "access_rules": ["@canUseCut"],
 						"visibility_rules": ["full_item"],
@@ -369,10 +360,35 @@
                 ]
             },
 			{
+                "name": "Route 32",     
+                "sections": [
+                    
+                    {
+                        "name": "Ground Items",
+                        "clear_as_group": false,
+						"visibility_rules": ["full_item"],
+                        "item_count": 2
+                    },                        
+                    {    
+                        "name": "Pokémon Center",
+                        "item_count": 1
+                    },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 525,
+                        "y": 538
+                    }
+                ]
+            },
+			{
                 "name": "Union Cave",
                 "sections": [
                     {
                         "name": "F1",
+						"clear_as_group": false,
                         "item_count": 4
                     },
                     {
@@ -398,14 +414,9 @@
                 ]
             },
 			{
-                "name": "Azalea Town",
+                "name": "Azalea Gym",
                 "sections": [
-                    {   
-                        "name": "Talk To Kurt",
-						"access_rules": ["rocketgrunt"],
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
+                    
                     {
                         "name": "Gym Leader TM",
 						"access_rules": ["rocketgrunt"],
@@ -418,6 +429,39 @@
 						
                         "hosted_item": "bugsy"
                     },
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 450,
+                        "y": 615
+                    }
+                ]
+            },
+			{
+                "name": "Kurt",
+                "sections": [
+                    {   
+                        "name": "Talk To Kurt",
+						"access_rules": ["rocketgrunt"],
+						"visibility_rules": ["full_item"],
+                        "item_count": 1
+                    },
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 450,
+                        "y": 585
+                    }
+                ]
+            },
+			{
+                "name": "Charcoal",
+                "sections": [
+
                     {   "name": "Charcoal",
                         "access_rules": ["farfetch'd"],
 						"visibility_rules": ["full_item"],
@@ -427,7 +471,7 @@
                 "map_locations": [
                     {
                         "map": "johto_kanto",
-                        "x": 450,
+                        "x": 480,
                         "y": 615
                     }
                 ]
@@ -501,13 +545,9 @@
                 ]
             },
 			{
-                "name": "Route 34",
+                "name": "Surf Route 34",
                 "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
                 "sections": [
-                    {   "name": "Lady In The Gate",
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
                     {
                         "name": "Ground Item",
                         "access_rules": ["@canUseSurf"],
@@ -520,6 +560,24 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 388,
+                        "y": 587
+						
+                    }
+                ]
+            },
+			{
+                "name": "Gate 34",
+                "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+                "sections": [
+                    {   "name": "Lady In The Gate",
+						"visibility_rules": ["full_item"],
+                        "item_count": 1
+                    },
                 ],
                 "map_locations": [
                     {
@@ -716,7 +774,8 @@
 							{
                                 "name": "After Defeating Team Rocket",
 								"visibility_rules": ["full_item"],
-                                "access_rules": ["team_rocket"],								                              
+                                "access_rules": ["team_rocket"],
+								"clear_as_group": false,								
                                 "item_count": 3
                             }
                         ],
@@ -1260,6 +1319,7 @@
                         "name": "Rocket Hideout B1F",
                         "access_rules": ["red_gyarados"],
 						"visibility_rules": ["full_item"],
+						"clear_as_group": false,
                         "item_count": 3
                     },
                     {
@@ -1547,8 +1607,7 @@
                     {   
                         "name": "Behind Rock Smash",
                         "access_rules": ["tm08"],
-
-
+						"clear_as_group": false,
                         "item_count": 3
                     },
                   
@@ -1654,6 +1713,12 @@
                 "name": "Mt. Silver",
                 "access_rules": ["oak"],
                 "sections": [
+                    {
+                        "name": "House Item Route 28",
+						"access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
+                        "item_count": 1
+                    },
                     {
                         "name": "1F Ground",
 						"visibility_rules": ["full_item"],

@@ -370,6 +370,20 @@
 			}
 		]
     },
+	    {
+        "name": "Blitzi",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/blitzx.png"
+			},
+			{
+				"img": "images/other/blitz.png",				
+				"codes": "blitzi"
+			}
+		]
+    },
     {
         "name": "Elite Four",
         "type": "toggle",

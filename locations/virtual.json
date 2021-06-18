@@ -22,5 +22,9 @@
     {
         "name": "canUseWaterfall",
         "access_rules": ["hm07,rising_badge"]
-    }
+    },
+	{
+        "name": "blitzSettings",
+        "access_rules": ["blitzi, $blitz"]
+    },
 ]

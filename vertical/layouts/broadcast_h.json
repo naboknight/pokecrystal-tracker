@@ -32,18 +32,7 @@
 
 						]
 					},
-					{
-						"type": "itemgrid",
-						"v_alignment": "center",
-						"h_alignment": "center",
-						"item_size": 10,
-						"item_margin": "-2,-2",
-						"rows": [
-					
-							[""],
 
-						]
-					},
 					{
 						"type": "itemgrid",
 						"v_alignment": "bottom",
@@ -56,7 +45,7 @@
 								"squirt_bottle",
 								"secret_potion",
 								"machine_part",	
-								"mystery_egg"
+								"mystery_egg", "elite_four"
 							],												
 					
 							[
@@ -64,7 +53,7 @@
 								"red_scale",
 								"basement_key",
 								"lost_item",						
-								"water_stone"
+								"water_stone", "team_rocket"
 
 							],
 

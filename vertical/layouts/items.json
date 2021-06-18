@@ -10,7 +10,7 @@
 				
                 "item_margin": "1,2",
                 "rows": [
-					[""],
+					
 					[
 					    
 						"hm01",
@@ -106,27 +106,22 @@
 						"mystery_egg",
 						
 					],
+					[
+						"",
+						"",		
+					],
 					
-					[""],
+					["team_rocket", "elite_four", ],
 					
 					
 					[
-						"team_rocket",
-						"elite_four",		
+						"",
+						"",		
 					],
 				
                 ]
             },
-			{
-                "type": "itemgrid",
-                "h_alignment": "center",
-				"item_size": 36,
-                "item_margin": "1,2",
-                "rows": [
 
-					[""],
-                ]
-            },
             
         ]
 
@@ -158,7 +153,7 @@
 						"random_radio"
 					],
 					[ 
-						"",
+						"blitzi",
 						"tin_tower"
 					]
                 ]

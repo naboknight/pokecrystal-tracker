@@ -14,24 +14,24 @@
                     [
 						"pokegear",
 						"radio_card",
-                        "expansion_card",
-						"",
+                        "expansion_card",						
 						"squirt_bottle",
                         "secret_potion",
 						"machine_part",
-						"mystery_egg"
+						"mystery_egg",
+						"elite_four"
 	
 						
                     ],
 					[
 					    "card_key",
 						"ss_ticket",
-                        "pass",
-						"",
+                        "pass",						
 						"red_scale",
 						"basement_key",
                         "lost_item",
-						"water_stone"
+						"water_stone",
+						"team_rocket",
 
 
                     ],
@@ -98,7 +98,7 @@
 						"random_radio"
 					],
 					[ 
-						"",
+						"blitzi",
 						"tin_tower"
 					]
                 ]

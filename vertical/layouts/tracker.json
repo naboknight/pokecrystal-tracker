@@ -58,6 +58,8 @@
         ]
     },
     "tracker_default": {
+		/*"width": 800,
+        "height": 800,*/
         "type": "container",
         "background": "#877373",
 		
