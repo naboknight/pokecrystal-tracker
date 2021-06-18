@@ -690,8 +690,9 @@
                 "access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "snorlax, @canUseCut"],
                 "sections": [
                     {
-                        "name": "TM 26",
-                        "item_count": 1
+                        "name": "1F Ground",
+						"clear_as_group": false,
+                        "item_count": 2
                     },
                     {
                         "name": "2F Ground",
