@@ -143,6 +143,15 @@
 					  }
 					},
 					{
+						"title": "Tin Tower",
+						"content": {
+						  "type": "map",
+						  "maps": [
+							  "tin_tower1"
+						  ]
+						}
+					  },
+					{
 					  "title": "Mt. Mortar",
 					  "content": {
 						"type": "layout",

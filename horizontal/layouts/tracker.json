@@ -130,6 +130,23 @@
 					  }
 					},
 					{
+						"title": "Tin Tower",
+						"content": {
+						  "type": "map",
+						  "maps": [
+							  "tin_tower2"
+						  ]
+						}
+					  },
+					{
+					  "title": "Mt. Mortar",
+					  "content": {
+						"type": "layout",
+						"key": "mt_mortar"
+					  }
+					},
+					
+					{
 					  "title": "Mt. Mortar",
 					  "content": {
 						"type": "layout",
