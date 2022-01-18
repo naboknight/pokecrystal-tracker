@@ -45,7 +45,7 @@
 								"squirt_bottle",
 								"secret_potion",
 								"machine_part",	
-								"mystery_egg", "elite_four"
+								"mystery_egg", "clear_bell"
 							],												
 					
 							[
@@ -53,7 +53,7 @@
 								"red_scale",
 								"basement_key",
 								"lost_item",						
-								"water_stone", "team_rocket"
+								"water_stone", "rainbow_wing"
 
 							],
 
@@ -93,6 +93,11 @@
 						"rising_badge",
                         "rainbow_badge",                        
                         
+                    ],
+					[
+                        "elite_four",
+                        "team_rocket",                        
+
                     ],
 
 

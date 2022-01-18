@@ -19,7 +19,7 @@
                         "secret_potion",
 						"machine_part",
 						"mystery_egg",
-						"elite_four"
+						"clear_bell"
 	
 						
                     ],
@@ -31,7 +31,7 @@
 						"basement_key",
                         "lost_item",
 						"water_stone",
-						"team_rocket",
+						"rainbow_wing",
 
 
                     ],
@@ -59,6 +59,12 @@
                         "rainbow_badge",                        
                         
                     ],
+                    [
+                        "elite_four",
+                        "team_rocket",                        
+                                           
+                        
+                    ],
 
 
 
@@ -81,6 +87,7 @@
                 "v_alignment": "top",
                 "item_margin": "1,2",
                 "rows": [
+			
 					[ 
 						"full_item", 
 						"cut_tree"
