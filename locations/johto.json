@@ -313,7 +313,7 @@
                     },
 					{
                         "name": "Ho-oh Treasure Room",
-                        "access_rules": ["ho-oh, @canUseSurf"],
+                        "access_rules": ["ho-oh, @canUseSurf, [elite_four]"],
 						"visibility_rules": ["tin_tower, full_item"],
                         "item_count": 4
                     },
@@ -998,7 +998,7 @@
                 "sections": [
                     {
                         "name": "Rainbow Wing",
-                        "access_rules": ["red_gyarados", "@Ecruteak City, elite_four"],
+                        "access_rules": ["@Ecruteak City, elite_four"],
 						"visibility_rules": ["tin_tower"],
                         "item_count": 1
                     },
@@ -1053,7 +1053,7 @@
                     },
 					{
                         "name": "Defeat Ho-oh",
-                        "access_rules": ["elite_four, rainbow_wing"],
+                        "access_rules": ["[elite_four], rainbow_wing"],
 						"visibility_rules": ["tin_tower, full_item"],
                         "hosted_item": "ho-oh"
                     }					
