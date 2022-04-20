@@ -646,12 +646,7 @@
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },                    
-                    {
-                        "name": "Casa Depois do Waterfall",
-                        "access_rules": ["@canUseSurf, @canUseWaterfall", "snorlax, @canUseCut, @canUseSurf"],
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
+
 					{
                         "name": "Whirlpool Depois do Waterfall",
                         "access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
